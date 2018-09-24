@@ -1,0 +1,109 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #dedfe0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 20px;
+}
+/* GLOBAL STYLES */
+.container {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+
+}
+.current{
+  color:#dd4402;
+}
+
+/*HEADER*/
+.dark {
+  background-color: #232a38;
+  color: white;
+  padding: 10px;
+}
+header {
+}
+header #logo{
+  width: 50%;
+  float: left;
+  margin: 5px;
+  margin-top: -15px;
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  height: -10px;
+}
+header ul{
+  list-style: none;
+  color: white;
+  maring: 5px;
+
+}
+header a, header li{
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+header li{
+  padding: 0 10px 0 10px;
+  font-size: 1.3em;
+  height: 10px;
+  margin: 5px;
+}
+header li a:hover{
+
+  color: grey;
+}
+/*MAIN PIC*/
+#disp{
+  background-image:url(../img/wallpost.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 350px;
+  opacity: 0.8;
+  color: white;
+}
+#disp h2{
+  font-family: 'Notable', sans-serif;
+  color: #dd4402;
+  font-size: 3em;
+  opacity: 1;
+}
+#disp p{
+  font-size: 1.25em;
+}
+#disp p, #disp h2{
+  margin: 50px;
+}
+#wrap{
+  align-content: center;
+  padding: 90px;
+}
+
+/*-----------------EMAIL-------------------------------*/
+#meassage p{
+  width: 50%;
+  float: left;
+  font-size: 1.25em;
+  margin-top:5px;
+  text-align: right;
+}
+#forms{
+  width: 45%;
+  float: right;
+}
+#forms input{
+  width: 75%;
+  float: left;
+  font-weight: bold;
+}
+.email {
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.but-1{
+  width: 5%;
+}
