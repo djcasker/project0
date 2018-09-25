@@ -102,8 +102,68 @@ header li a:hover{
 .email {
   padding: 5px;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-right: 110px;
 }
 .but-1{
-  width: 5%;
+  width: 10%;
+  background-color:grey;
+  text-align: center;
+  float: left;
+  display: block;
+}
+/*--------------------BLOCKS------------------------*/
+.workitem{
+  width: 30%;
+  float:left;
+  margin: 10px;
+  padding: 10px;
+}
+.workitem img{
+  height: 300px;
+}
+.workitem h3{
+  font-size: 1.4em;
+}
+/*--------------FOOTER---------------------*/
+div#footer {
+height: 80px;
+background-image: url(gui/footer_back.jpg);
+background-repeat: repeat-x;
+backgroud-position: top;
+}
+
+div#footernav {
+width: 940px;
+height: 56px;
+background-image: url(gui/footer_navback.jpg);
+background-repeat: no-repeat;
+backgroud-position: top left;
+margin: 0 auto;
+padding-top: 24px;
+}
+
+div#footerlinks {
+float: left;
+padding-left: 180px;
+color: #ffffff;
+font-size: 10px;
+width: 700px;
+}
+
+div#footerlinks a:link, div#footerlinks li a:visited, div#footerlinks li a:active{
+text-decoration: none;
+color: #ffffff;
+}
+
+div#footerlinks a:hover {
+text-decoration: underline;
+color: #ffffff;
+}
+
+div#copyright {
+float: left;
+padding-left: 20px;
+font-size: 10px;
+margin-top: 15px;
 }
